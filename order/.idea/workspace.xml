@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="346a2002-d5ad-4112-a30b-ff27e8c15bd0" name="Changes" comment="order application.properties 설정">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/market/order/OrderApplicationQueueConfig.java" afterDir="false" />
+    <list default="true" id="346a2002-d5ad-4112-a30b-ff27e8c15bd0" name="Changes" comment="사용하지 않는 import 삭제">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/market/order/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/market/order/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,6 +132,7 @@
       <workItem from="1723616141847" duration="2036000" />
       <workItem from="1723618191880" duration="469000" />
       <workItem from="1723618668098" duration="579000" />
+      <workItem from="1723619257072" duration="983000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -180,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723618879155</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="order RabbitMQ config 설정">
+      <option name="closed" value="true" />
+      <created>1723619414218</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723619414218</updated>
+    </task>
+    <task id="LOCAL-00008" summary="사용하지 않는 import 삭제">
+      <option name="closed" value="true" />
+      <created>1723619439732</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723619439732</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +247,9 @@
     <MESSAGE value="Queue 에 Message 넣기" />
     <MESSAGE value="first commit" />
     <MESSAGE value="order application.properties 설정" />
-    <option name="LAST_COMMIT_MESSAGE" value="order application.properties 설정" />
+    <MESSAGE value="order RabbitMQ config 설정" />
+    <MESSAGE value="사용하지 않는 import 삭제" />
+    <option name="LAST_COMMIT_MESSAGE" value="사용하지 않는 import 삭제" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
